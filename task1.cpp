@@ -101,17 +101,17 @@ int main() {
 
         ArrayPtr arr1 = copy_array(arr.get(), size_array);
         task1(arr1.get(), size_array);
-        std::cout << "After task1 (min positive -> 0): ";
+        std::cout << "task1: ";
         print_array(arr1.get(), size_array);
 
         size_t task2_size = get_new_size(arr.get(), size_array);
         ArrayPtr arr2 = task2(arr.get(), size_array, task2_size);
-        std::cout << "After task2 (even first and last digit): ";
+        std::cout << "task2: ";
         print_array(arr2.get(), task2_size);
 
         ArrayPtr arr3 = copy_array(arr.get(), size_array);
         task3(arr3.get(), size_array);
-        std::cout << "After task3 (A[i] = -D[i]^2 for i=3..12 else D[i]-1): ";
+        std::cout << "task3: ";
         print_array(arr3.get(), size_array);
 
         return 0;
