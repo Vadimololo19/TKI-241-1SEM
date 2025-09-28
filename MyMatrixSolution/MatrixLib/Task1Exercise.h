@@ -1,0 +1,15 @@
+#pragma once
+#include "Exercise.h"
+
+namespace miit::algebra {
+
+class Task1Exercise : public Exercise {
+public:
+    explicit Task1Exercise(Matrix mat);
+
+    void Task1() override;
+    void Task2() override;
+    void Task3() override;
+};
+
+}

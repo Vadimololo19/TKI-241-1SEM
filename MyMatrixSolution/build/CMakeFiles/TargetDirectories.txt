@@ -1,0 +1,7 @@
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles/MatrixLib.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles/ConsoleApp.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles/edit_cache.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles/rebuild_cache.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/Tests/CMakeFiles/Tests.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/Tests/CMakeFiles/edit_cache.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/Tests/CMakeFiles/rebuild_cache.dir
