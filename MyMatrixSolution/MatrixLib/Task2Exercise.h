@@ -1,22 +1,23 @@
 #pragma once
 #include "Exercise.h"
+#include <vector>
 
 namespace miit::algebra {
 
-class Task2Exercise : public Exercise {
-    Matrix result;
+class Task2Exercise : public Exercise<int> {
+    Matrix<int> result;
 
     static bool hasEvenFirstAndLast(int value);
-    static size_t countValid(const Matrix& m);
+    static size_t countValid(const Matrix<int>& m);
 
 public:
-    explicit Task2Exercise(Matrix mat);
+    explicit Task2Exercise(Matrix<int> mat);
 
     void Task1() override;
     void Task2() override;
     void Task3() override;
 
-    const Matrix& getResult() const;
+    const Matrix<int>& getResult() const;
 };
 
-}
+} 

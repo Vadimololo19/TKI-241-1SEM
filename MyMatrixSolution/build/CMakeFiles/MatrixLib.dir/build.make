@@ -72,66 +72,10 @@ include CMakeFiles/MatrixLib.dir/flags.make
 CMakeFiles/MatrixLib.dir/codegen:
 .PHONY : CMakeFiles/MatrixLib.dir/codegen
 
-CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o: CMakeFiles/MatrixLib.dir/flags.make
-CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o: /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Matrix.cpp
-CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o: CMakeFiles/MatrixLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o -MF CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o.d -o CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o -c /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Matrix.cpp
-
-CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Matrix.cpp > CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.i
-
-CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Matrix.cpp -o CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.s
-
-CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o: CMakeFiles/MatrixLib.dir/flags.make
-CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o: /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/RandomGenerator.cpp
-CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o: CMakeFiles/MatrixLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o -MF CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o.d -o CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o -c /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/RandomGenerator.cpp
-
-CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/RandomGenerator.cpp > CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.i
-
-CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/RandomGenerator.cpp -o CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.s
-
-CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o: CMakeFiles/MatrixLib.dir/flags.make
-CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o: /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/IStreamGenerator.cpp
-CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o: CMakeFiles/MatrixLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o -MF CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o.d -o CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o -c /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/IStreamGenerator.cpp
-
-CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/IStreamGenerator.cpp > CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.i
-
-CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/IStreamGenerator.cpp -o CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.s
-
-CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o: CMakeFiles/MatrixLib.dir/flags.make
-CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o: /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Exercise.cpp
-CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o: CMakeFiles/MatrixLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o -MF CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o.d -o CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o -c /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Exercise.cpp
-
-CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Exercise.cpp > CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.i
-
-CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Exercise.cpp -o CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.s
-
 CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o: CMakeFiles/MatrixLib.dir/flags.make
 CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o: /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task1Exercise.cpp
 CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o: CMakeFiles/MatrixLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o -MF CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o.d -o CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o -c /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task1Exercise.cpp
 
 CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.i: cmake_force
@@ -145,7 +89,7 @@ CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.s: cmake_force
 CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o: CMakeFiles/MatrixLib.dir/flags.make
 CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o: /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task2Exercise.cpp
 CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o: CMakeFiles/MatrixLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o -MF CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o.d -o CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o -c /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task2Exercise.cpp
 
 CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.i: cmake_force
@@ -159,7 +103,7 @@ CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.s: cmake_force
 CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o: CMakeFiles/MatrixLib.dir/flags.make
 CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o: /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task3Exercise.cpp
 CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o: CMakeFiles/MatrixLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o -MF CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o.d -o CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o -c /home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task3Exercise.cpp
 
 CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.i: cmake_force
@@ -172,10 +116,6 @@ CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.s: cmake_force
 
 # Object files for target MatrixLib
 MatrixLib_OBJECTS = \
-"CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o" \
-"CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o" \
-"CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o" \
-"CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o" \
 "CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o" \
 "CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o" \
 "CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o"
@@ -183,16 +123,12 @@ MatrixLib_OBJECTS = \
 # External object files for target MatrixLib
 MatrixLib_EXTERNAL_OBJECTS =
 
-libMatrixLib.a: CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o
-libMatrixLib.a: CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o
-libMatrixLib.a: CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o
-libMatrixLib.a: CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o
 libMatrixLib.a: CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o
 libMatrixLib.a: CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o
 libMatrixLib.a: CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o
 libMatrixLib.a: CMakeFiles/MatrixLib.dir/build.make
 libMatrixLib.a: CMakeFiles/MatrixLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libMatrixLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libMatrixLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/MatrixLib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MatrixLib.dir/link.txt --verbose=$(VERBOSE)
 

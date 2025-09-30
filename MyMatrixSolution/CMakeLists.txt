@@ -7,12 +7,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(GTest REQUIRED)
 
 add_library(MatrixLib
-    MatrixLib/Matrix.cpp
-    MatrixLib/RandomGenerator.cpp
-    MatrixLib/IStreamGenerator.cpp
-    MatrixLib/Exercise.cpp
+    MatrixLib/Matrix.h
+    MatrixLib/Generator.h
+    MatrixLib/RandomGenerator.h
+    MatrixLib/IStreamGenerator.h
+    MatrixLib/Exercise.h
+    MatrixLib/Task1Exercise.h
     MatrixLib/Task1Exercise.cpp
+    MatrixLib/Task2Exercise.h
     MatrixLib/Task2Exercise.cpp
+    MatrixLib/Task3Exercise.h
     MatrixLib/Task3Exercise.cpp
 )
 

@@ -8,10 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Exercise.cpp" "CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o" "gcc" "CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o.d"
-  "/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/IStreamGenerator.cpp" "CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o" "gcc" "CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o.d"
-  "/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Matrix.cpp" "CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o" "gcc" "CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o.d"
-  "/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/RandomGenerator.cpp" "CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o" "gcc" "CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o.d"
   "/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task1Exercise.cpp" "CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o" "gcc" "CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o.d"
   "/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task2Exercise.cpp" "CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o" "gcc" "CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o.d"
   "/home/kaguya/Documents/GitHub/TKI-241-1SEM/MyMatrixSolution/MatrixLib/Task3Exercise.cpp" "CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o" "gcc" "CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o.d"

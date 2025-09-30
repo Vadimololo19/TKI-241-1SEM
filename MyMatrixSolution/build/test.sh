@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./Tests/Tests
+bash -c ./Tests/Tests

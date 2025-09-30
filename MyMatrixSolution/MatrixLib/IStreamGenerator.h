@@ -3,10 +3,23 @@
 #include <iostream>
 
 namespace miit::algebra {
-class IStreamGenerator : public Generator {
+
+template <typename T>
+class IStreamGenerator : public Generator<T> {
     std::istream& in;
 public:
     explicit IStreamGenerator(std::istream& in = std::cin);
-    int generate() override;
+    T generate() override;
 };
+
+template <typename T>
+IStreamGenerator<T>::IStreamGenerator(std::istream& in) : in(in) {}
+
+template <typename T>
+T IStreamGenerator<T>::generate() {
+    T value;
+    in >> value;
+    return value;
+}
+
 }

@@ -28,13 +28,13 @@ int main() {
         if (low > high) throw std::runtime_error("Low > High");
         if (size == 0) throw std::runtime_error("Size <= 0");
 
-        Matrix original(size);
-        std::unique_ptr<Generator> gen;
+        Matrix<int> original(size);
+        std::unique_ptr<Generator<int>> gen;
 
         if (cmd == RANDOM) {
-            gen = std::make_unique<RandomGenerator>(low, high);
+            gen = std::make_unique<RandomGenerator<int>>(low, high);
         } else {
-            gen = std::make_unique<IStreamGenerator>(std::cin);
+            gen = std::make_unique<IStreamGenerator<int>>(std::cin);
         }
 
         original.fill(size, *gen);
@@ -51,7 +51,7 @@ int main() {
             Task2Exercise ex(original);
             ex.Task2();
             auto& res = ex.getResult();
-            if (res.getSize() == 1) {
+            if (res.getSize() == 0) {
                 std::cout << "Task2: No valid elements\n";
             } else {
                 std::cout << "Task2 result: " << res << "\n";

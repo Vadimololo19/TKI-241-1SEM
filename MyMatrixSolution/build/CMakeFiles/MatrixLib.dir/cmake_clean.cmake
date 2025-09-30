@@ -1,12 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o"
-  "CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o.d"
-  "CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o"
-  "CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o.d"
-  "CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o"
-  "CMakeFiles/MatrixLib.dir/MatrixLib/Matrix.cpp.o.d"
-  "CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o"
-  "CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o.d"
   "CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o"
   "CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o.d"
   "CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o"
