@@ -3,27 +3,19 @@
 
 namespace miit::algebra {
 
-template <typename T>
 class Exercise {
 protected:
-    Matrix<T> matrix;
+    Matrix<int> matrix;
+
 public:
-    explicit Exercise(Matrix<T> mat);
+    explicit Exercise(Matrix<int> mat);
     virtual ~Exercise() = default;
 
     virtual void Task1() = 0;
     virtual void Task2() = 0;
     virtual void Task3() = 0;
 
-    const Matrix<T>& getMatrix() const;
+    const Matrix<int>& getMatrix() const;
 };
 
-template <typename T>
-Exercise<T>::Exercise(Matrix<T> mat) : matrix(std::move(mat)) {}
-
-template <typename T>
-const Matrix<T>& Exercise<T>::getMatrix() const {
-    return matrix;
 }
-
-} 

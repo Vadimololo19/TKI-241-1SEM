@@ -1,10 +1,9 @@
 #pragma once
 #include "Exercise.h"
-#include <climits>
 
 namespace miit::algebra {
 
-class Task1Exercise : public Exercise<int> {
+class Task1Exercise : public Exercise {
 public:
     explicit Task1Exercise(Matrix<int> mat);
 

@@ -5,5 +5,4 @@ add_executable(Tests
 )
 
 target_link_libraries(Tests PRIVATE MatrixLib GTest::gtest_main)
-
 add_test(NAME RunUnitTests COMMAND Tests)

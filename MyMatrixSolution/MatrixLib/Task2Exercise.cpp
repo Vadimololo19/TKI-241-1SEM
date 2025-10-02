@@ -3,6 +3,8 @@
 
 namespace miit::algebra {
 
+Task2Exercise::Task2Exercise(Matrix<int> mat) : Exercise(std::move(mat)), result(0) {}
+
 bool Task2Exercise::hasEvenFirstAndLast(int value) {
     int n = std::abs(value);
     if (n == 0) return false;
@@ -20,27 +22,29 @@ size_t Task2Exercise::countValid(const Matrix<int>& m) {
     return cnt;
 }
 
-Task2Exercise::Task2Exercise(Matrix<int> mat) : Exercise<int>(std::move(mat)), result(0) {}
-
 void Task2Exercise::Task1() {}
+void Task2Exercise::Task3() {}
+
 void Task2Exercise::Task2() {
     size_t n = countValid(matrix);
     if (n == 0) {
         result = Matrix<int>(0);
         return;
     }
-    std::vector<int> filtered;
+
+    std::unique_ptr<int[]> temp = std::make_unique<int[]>(n);
+    size_t idx = 0;
     for (size_t i = 0; i < matrix.getSize(); ++i) {
         if (hasEvenFirstAndLast(matrix[i])) {
-            filtered.push_back(matrix[i]);
+            temp[idx++] = matrix[i];
         }
     }
-    result = Matrix<int>(filtered);
+
+    result = Matrix<int>(temp.get(), n);
 }
-void Task2Exercise::Task3() {}
 
 const Matrix<int>& Task2Exercise::getResult() const {
     return result;
 }
 
-} 
+}

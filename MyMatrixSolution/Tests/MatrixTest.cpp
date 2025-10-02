@@ -1,5 +1,6 @@
 #include "Matrix.h"
 #include "RandomGenerator.h"
+#include <sstream>
 #include <gtest/gtest.h>
 
 using namespace miit::algebra;
@@ -19,7 +20,7 @@ TEST(MatrixTest, AccessElements) {
 
 TEST(MatrixTest, FillWithRandom) {
     Matrix<int> m(5);
-    RandomGenerator<int> gen(1, 10);
+    RandomGenerator gen(1, 10);
     m.fill(5, gen);
     for (size_t i = 0; i < m.getSize(); ++i) {
         EXPECT_GE(m[i], 1);

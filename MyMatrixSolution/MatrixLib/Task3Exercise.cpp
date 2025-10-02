@@ -1,8 +1,9 @@
 #include "Task3Exercise.h"
+#include <cmath>
 
 namespace miit::algebra {
 
-Task3Exercise::Task3Exercise(Matrix<int> mat) : Exercise<int>(std::move(mat)) {}
+Task3Exercise::Task3Exercise(Matrix<int> mat) : Exercise(std::move(mat)) {}
 
 void Task3Exercise::Task1() {}
 void Task3Exercise::Task2() {}
@@ -17,3 +18,4 @@ void Task3Exercise::Task3() {
 }
 
 }
+

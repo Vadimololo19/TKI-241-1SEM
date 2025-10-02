@@ -1,10 +1,9 @@
 #pragma once
 #include "Exercise.h"
-#include <cmath>
 
 namespace miit::algebra {
 
-class Task3Exercise : public Exercise<int> {
+class Task3Exercise : public Exercise {
 public:
     explicit Task3Exercise(Matrix<int> mat);
 
@@ -13,4 +12,4 @@ public:
     void Task3() override;
 };
 
-} 
+}

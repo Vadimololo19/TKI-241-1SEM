@@ -10,8 +10,11 @@ add_library(MatrixLib
     MatrixLib/Matrix.h
     MatrixLib/Generator.h
     MatrixLib/RandomGenerator.h
+    MatrixLib/RandomGenerator.cpp
     MatrixLib/IStreamGenerator.h
+    MatrixLib/IStreamGenerator.cpp
     MatrixLib/Exercise.h
+    MatrixLib/Exercise.cpp
     MatrixLib/Task1Exercise.h
     MatrixLib/Task1Exercise.cpp
     MatrixLib/Task2Exercise.h

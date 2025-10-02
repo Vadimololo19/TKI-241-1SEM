@@ -1,6 +1,5 @@
 #include <iostream>
 #include <memory>
-
 #include "Matrix.h"
 #include "RandomGenerator.h"
 #include "IStreamGenerator.h"
@@ -29,12 +28,12 @@ int main() {
         if (size == 0) throw std::runtime_error("Size <= 0");
 
         Matrix<int> original(size);
-        std::unique_ptr<Generator<int>> gen;
+        std::unique_ptr<Generator> gen;
 
         if (cmd == RANDOM) {
-            gen = std::make_unique<RandomGenerator<int>>(low, high);
+            gen = std::make_unique<RandomGenerator>(low, high);
         } else {
-            gen = std::make_unique<IStreamGenerator<int>>(std::cin);
+            gen = std::make_unique<IStreamGenerator>(std::cin);
         }
 
         original.fill(size, *gen);

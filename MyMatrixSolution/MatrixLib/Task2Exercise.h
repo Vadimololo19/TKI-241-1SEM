@@ -1,10 +1,9 @@
 #pragma once
 #include "Exercise.h"
-#include <vector>
 
 namespace miit::algebra {
 
-class Task2Exercise : public Exercise<int> {
+class Task2Exercise : public Exercise {
     Matrix<int> result;
 
     static bool hasEvenFirstAndLast(int value);
@@ -20,4 +19,4 @@ public:
     const Matrix<int>& getResult() const;
 };
 
-} 
+}

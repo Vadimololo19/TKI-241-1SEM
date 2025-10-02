@@ -179,6 +179,78 @@ ConsoleApp/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConsoleApp.dir/build.make CMakeFiles/ConsoleApp.dir/ConsoleApp/main.cpp.s
 .PHONY : ConsoleApp/main.cpp.s
 
+MatrixLib/Exercise.o: MatrixLib/Exercise.cpp.o
+.PHONY : MatrixLib/Exercise.o
+
+# target to build an object file
+MatrixLib/Exercise.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o
+.PHONY : MatrixLib/Exercise.cpp.o
+
+MatrixLib/Exercise.i: MatrixLib/Exercise.cpp.i
+.PHONY : MatrixLib/Exercise.i
+
+# target to preprocess a source file
+MatrixLib/Exercise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.i
+.PHONY : MatrixLib/Exercise.cpp.i
+
+MatrixLib/Exercise.s: MatrixLib/Exercise.cpp.s
+.PHONY : MatrixLib/Exercise.s
+
+# target to generate assembly for a file
+MatrixLib/Exercise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.s
+.PHONY : MatrixLib/Exercise.cpp.s
+
+MatrixLib/IStreamGenerator.o: MatrixLib/IStreamGenerator.cpp.o
+.PHONY : MatrixLib/IStreamGenerator.o
+
+# target to build an object file
+MatrixLib/IStreamGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o
+.PHONY : MatrixLib/IStreamGenerator.cpp.o
+
+MatrixLib/IStreamGenerator.i: MatrixLib/IStreamGenerator.cpp.i
+.PHONY : MatrixLib/IStreamGenerator.i
+
+# target to preprocess a source file
+MatrixLib/IStreamGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.i
+.PHONY : MatrixLib/IStreamGenerator.cpp.i
+
+MatrixLib/IStreamGenerator.s: MatrixLib/IStreamGenerator.cpp.s
+.PHONY : MatrixLib/IStreamGenerator.s
+
+# target to generate assembly for a file
+MatrixLib/IStreamGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.s
+.PHONY : MatrixLib/IStreamGenerator.cpp.s
+
+MatrixLib/RandomGenerator.o: MatrixLib/RandomGenerator.cpp.o
+.PHONY : MatrixLib/RandomGenerator.o
+
+# target to build an object file
+MatrixLib/RandomGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o
+.PHONY : MatrixLib/RandomGenerator.cpp.o
+
+MatrixLib/RandomGenerator.i: MatrixLib/RandomGenerator.cpp.i
+.PHONY : MatrixLib/RandomGenerator.i
+
+# target to preprocess a source file
+MatrixLib/RandomGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.i
+.PHONY : MatrixLib/RandomGenerator.cpp.i
+
+MatrixLib/RandomGenerator.s: MatrixLib/RandomGenerator.cpp.s
+.PHONY : MatrixLib/RandomGenerator.s
+
+# target to generate assembly for a file
+MatrixLib/RandomGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixLib.dir/build.make CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.s
+.PHONY : MatrixLib/RandomGenerator.cpp.s
+
 MatrixLib/Task1Exercise.o: MatrixLib/Task1Exercise.cpp.o
 .PHONY : MatrixLib/Task1Exercise.o
 
@@ -265,6 +337,15 @@ help:
 	@echo "... ConsoleApp/main.o"
 	@echo "... ConsoleApp/main.i"
 	@echo "... ConsoleApp/main.s"
+	@echo "... MatrixLib/Exercise.o"
+	@echo "... MatrixLib/Exercise.i"
+	@echo "... MatrixLib/Exercise.s"
+	@echo "... MatrixLib/IStreamGenerator.o"
+	@echo "... MatrixLib/IStreamGenerator.i"
+	@echo "... MatrixLib/IStreamGenerator.s"
+	@echo "... MatrixLib/RandomGenerator.o"
+	@echo "... MatrixLib/RandomGenerator.i"
+	@echo "... MatrixLib/RandomGenerator.s"
 	@echo "... MatrixLib/Task1Exercise.o"
 	@echo "... MatrixLib/Task1Exercise.i"
 	@echo "... MatrixLib/Task1Exercise.s"

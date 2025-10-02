@@ -1,8 +1,10 @@
 #include "Task1Exercise.h"
+#include <climits>
+#include <cmath>
 
 namespace miit::algebra {
 
-Task1Exercise::Task1Exercise(Matrix<int> mat) : Exercise<int>(std::move(mat)) {}
+Task1Exercise::Task1Exercise(Matrix<int> mat) : Exercise(std::move(mat)) {}
 
 void Task1Exercise::Task1() {
     int minPositive = INT_MAX;
@@ -22,4 +24,4 @@ void Task1Exercise::Task1() {
 void Task1Exercise::Task2() {}
 void Task1Exercise::Task3() {}
 
-} 
+}
