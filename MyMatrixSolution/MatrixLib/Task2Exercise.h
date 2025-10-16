@@ -12,9 +12,7 @@ class Task2Exercise : public Exercise {
 public:
     explicit Task2Exercise(Matrix<int> mat);
 
-    void Task1() override;
-    void Task2() override;
-    void Task3() override;
+    void Task2();
 
     const Matrix<int>& getResult() const;
 };

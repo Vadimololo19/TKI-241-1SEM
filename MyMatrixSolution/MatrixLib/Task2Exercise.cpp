@@ -22,9 +22,6 @@ size_t Task2Exercise::countValid(const Matrix<int>& m) {
     return cnt;
 }
 
-void Task2Exercise::Task1() {}
-void Task2Exercise::Task3() {}
-
 void Task2Exercise::Task2() {
     size_t n = countValid(matrix);
     if (n == 0) {

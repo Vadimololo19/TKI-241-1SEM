@@ -7,9 +7,7 @@ class Task1Exercise : public Exercise {
 public:
     explicit Task1Exercise(Matrix<int> mat);
 
-    void Task1() override;
-    void Task2() override;
-    void Task3() override;
+    void Task1();
 };
 
 }

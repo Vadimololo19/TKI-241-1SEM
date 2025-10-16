@@ -1,27 +1,32 @@
 #include "Task1Exercise.h"
-#include <climits>
-#include <cmath>
 
 namespace miit::algebra {
 
 Task1Exercise::Task1Exercise(Matrix<int> mat) : Exercise(std::move(mat)) {}
 
 void Task1Exercise::Task1() {
-    int minPositive = INT_MAX;
-    int minIndex = -1;
+    int minPositive = 0;
+    bool found = false;
     for (size_t i = 0; i < matrix.getSize(); ++i) {
         int val = matrix[i];
-        if (val > 0 && val < minPositive) {
-            minPositive = val;
-            minIndex = static_cast<int>(i);
+        if (val > 0) {
+            if (!found) {
+                minPositive = val;
+                found = true;
+            } else if (val < minPositive) {
+                minPositive = val;
+            }
         }
     }
-    if (minIndex != -1) {
-        matrix[minIndex] = 0;
+
+    if (found) {
+        for (size_t i = 0; i < matrix.getSize(); ++i) {
+            if (matrix[i] == minPositive) {
+                matrix[i] = 0;
+                break;
+            }
+        }
     }
 }
-
-void Task1Exercise::Task2() {}
-void Task1Exercise::Task3() {}
 
 }
