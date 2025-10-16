@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMatrixLib.a CMakeFiles/MatrixLib.dir/MatrixLib/RandomGenerator.cpp.o CMakeFiles/MatrixLib.dir/MatrixLib/IStreamGenerator.cpp.o CMakeFiles/MatrixLib.dir/MatrixLib/Exercise.cpp.o CMakeFiles/MatrixLib.dir/MatrixLib/Task1Exercise.cpp.o CMakeFiles/MatrixLib.dir/MatrixLib/Task2Exercise.cpp.o CMakeFiles/MatrixLib.dir/MatrixLib/Task3Exercise.cpp.o
+/usr/bin/ranlib libMatrixLib.a
