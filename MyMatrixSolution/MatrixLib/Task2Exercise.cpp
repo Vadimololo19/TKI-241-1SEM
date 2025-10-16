@@ -1,5 +1,6 @@
 #include "Task2Exercise.h"
 #include <cmath>
+#include <iostream>
 
 namespace miit::algebra {
 
@@ -26,6 +27,7 @@ void Task2Exercise::Task2() {
     size_t n = countValid(matrix);
     if (n == 0) {
         result = Matrix<int>(0);
+        std::cout << "Task2: No valid elements\n";
         return;
     }
 
@@ -38,10 +40,12 @@ void Task2Exercise::Task2() {
     }
 
     result = Matrix<int>(temp.get(), n);
-}
-
-const Matrix<int>& Task2Exercise::getResult() const {
-    return result;
+    
+    std::cout << "Task2 result: [ ";
+    for (size_t i = 0; i < result.getSize(); ++i) {
+        std::cout << result[i] << " ";
+    }
+    std::cout << "]\n";
 }
 
 }

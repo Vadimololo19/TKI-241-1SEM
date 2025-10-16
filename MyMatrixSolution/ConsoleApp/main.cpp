@@ -49,12 +49,6 @@ int main() {
         {
             Task2Exercise ex(original);
             ex.Task2();
-            auto& res = ex.getResult();
-            if (res.getSize() == 0) {
-                std::cout << "Task2: No valid elements\n";
-            } else {
-                std::cout << "Task2 result: " << res << "\n";
-            }
         }
 
         {

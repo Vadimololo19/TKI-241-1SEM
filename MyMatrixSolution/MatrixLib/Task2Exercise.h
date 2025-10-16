@@ -11,7 +11,7 @@ class Task2Exercise : public Exercise {
 
 public:
     explicit Task2Exercise(Matrix<int> mat);
-
+    
     void Task2();
 
     const Matrix<int>& getResult() const;
