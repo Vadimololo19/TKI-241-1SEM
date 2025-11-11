@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/cmake_install.cmake",
+		"/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/Tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
