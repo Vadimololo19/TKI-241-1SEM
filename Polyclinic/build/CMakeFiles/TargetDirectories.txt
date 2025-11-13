@@ -1,0 +1,7 @@
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/CMakeFiles/Lib.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/CMakeFiles/PolyclinicApp.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/CMakeFiles/edit_cache.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/CMakeFiles/rebuild_cache.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/Tests/CMakeFiles/Tests.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/Tests/CMakeFiles/edit_cache.dir
+/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/Tests/CMakeFiles/rebuild_cache.dir
