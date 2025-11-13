@@ -275,6 +275,30 @@ Lib/Person.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/Person.cpp.s
 .PHONY : Lib/Person.cpp.s
 
+Lib/Polyclinic.o: Lib/Polyclinic.cpp.o
+.PHONY : Lib/Polyclinic.o
+
+# target to build an object file
+Lib/Polyclinic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o
+.PHONY : Lib/Polyclinic.cpp.o
+
+Lib/Polyclinic.i: Lib/Polyclinic.cpp.i
+.PHONY : Lib/Polyclinic.i
+
+# target to preprocess a source file
+Lib/Polyclinic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.i
+.PHONY : Lib/Polyclinic.cpp.i
+
+Lib/Polyclinic.s: Lib/Polyclinic.cpp.s
+.PHONY : Lib/Polyclinic.s
+
+# target to generate assembly for a file
+Lib/Polyclinic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lib.dir/build.make CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.s
+.PHONY : Lib/Polyclinic.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -301,6 +325,9 @@ help:
 	@echo "... Lib/Person.o"
 	@echo "... Lib/Person.i"
 	@echo "... Lib/Person.s"
+	@echo "... Lib/Polyclinic.o"
+	@echo "... Lib/Polyclinic.i"
+	@echo "... Lib/Polyclinic.s"
 .PHONY : help
 
 

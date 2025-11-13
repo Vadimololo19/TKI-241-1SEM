@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Lib.dir/Lib/Patient.cpp.o.d"
   "CMakeFiles/Lib.dir/Lib/Person.cpp.o"
   "CMakeFiles/Lib.dir/Lib/Person.cpp.o.d"
+  "CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o"
+  "CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o.d"
   "libLib.a"
   "libLib.pdb"
 )

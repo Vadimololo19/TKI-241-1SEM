@@ -128,12 +128,27 @@ CMakeFiles/Lib.dir/Lib/Appointment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lib.dir/Lib/Appointment.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/Lib/Appointment.cpp -o CMakeFiles/Lib.dir/Lib/Appointment.cpp.s
 
+CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o: CMakeFiles/Lib.dir/flags.make
+CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o: /home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/Lib/Polyclinic.cpp
+CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o: CMakeFiles/Lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o -MF CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o.d -o CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o -c /home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/Lib/Polyclinic.cpp
+
+CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/Lib/Polyclinic.cpp > CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.i
+
+CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/Lib/Polyclinic.cpp -o CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.s
+
 # Object files for target Lib
 Lib_OBJECTS = \
 "CMakeFiles/Lib.dir/Lib/Person.cpp.o" \
 "CMakeFiles/Lib.dir/Lib/Doctor.cpp.o" \
 "CMakeFiles/Lib.dir/Lib/Patient.cpp.o" \
-"CMakeFiles/Lib.dir/Lib/Appointment.cpp.o"
+"CMakeFiles/Lib.dir/Lib/Appointment.cpp.o" \
+"CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o"
 
 # External object files for target Lib
 Lib_EXTERNAL_OBJECTS =
@@ -142,9 +157,10 @@ libLib.a: CMakeFiles/Lib.dir/Lib/Person.cpp.o
 libLib.a: CMakeFiles/Lib.dir/Lib/Doctor.cpp.o
 libLib.a: CMakeFiles/Lib.dir/Lib/Patient.cpp.o
 libLib.a: CMakeFiles/Lib.dir/Lib/Appointment.cpp.o
+libLib.a: CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o
 libLib.a: CMakeFiles/Lib.dir/build.make
 libLib.a: CMakeFiles/Lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kaguya/Documents/GitHub/TKI-241-1SEM/Polyclinic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lib.dir/link.txt --verbose=$(VERBOSE)
 

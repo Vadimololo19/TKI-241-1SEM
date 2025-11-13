@@ -11,6 +11,7 @@ set(LIB_SOURCES
   Lib/Doctor.cpp
   Lib/Patient.cpp
   Lib/Appointment.cpp
+  Lib/Polyclinic.cpp
 )
 
 set(APP_SOURCES

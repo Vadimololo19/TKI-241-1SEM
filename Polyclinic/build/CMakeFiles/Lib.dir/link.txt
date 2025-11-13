@@ -1,2 +1,2 @@
-/usr/bin/ar qc libLib.a CMakeFiles/Lib.dir/Lib/Person.cpp.o CMakeFiles/Lib.dir/Lib/Doctor.cpp.o CMakeFiles/Lib.dir/Lib/Patient.cpp.o CMakeFiles/Lib.dir/Lib/Appointment.cpp.o
+/usr/bin/ar qc libLib.a CMakeFiles/Lib.dir/Lib/Person.cpp.o CMakeFiles/Lib.dir/Lib/Doctor.cpp.o CMakeFiles/Lib.dir/Lib/Patient.cpp.o CMakeFiles/Lib.dir/Lib/Appointment.cpp.o CMakeFiles/Lib.dir/Lib/Polyclinic.cpp.o
 /usr/bin/ranlib libLib.a
